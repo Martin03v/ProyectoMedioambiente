@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    color:white;
+    background:
+    linear-gradient(
+        rgba(0,0,0,.4),
+        rgba(0,0,0,.4)
+    ),
+    url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    max-width:650px;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:1.4rem;
+}
+
+.feature-icon{
+    font-size:4rem;
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.projects{
+    background:#f8fff4;
+}
+
+.projects h2{
+    color:#2e7d32;
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.project-card{
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+}
+
+footer{
+    margin-top:50px;
+}
+/* =========================
+   ICONOS PERSONALIZADOS
+========================= */
+
+.feature-img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   SECCION PROYECTOS
+========================= */
+
+.projects{
+    background-image: url("/src/assets/img/FONDO-PAISAJE.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.projects .overlay{
+    width: 100%;
+    padding: 120px 0;
+
+    background: rgba(255,255,255,.45);
+    backdrop-filter: blur(2px);
+}
+
+.projects h2{
+    color: #2e7d32;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.projects p{
+    color: #333;
+    font-size: 1.3rem;
+}
+.about-banner{
+    background-image: linear-gradient(
+        rgba(0,0,0,.4),
+        rgba(0,0,0,.4)
+    ),
+    url("../assets/img/FONDO-PAISAJE.PNG");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    padding: 120px 0;
+}
+
+.about-banner h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
